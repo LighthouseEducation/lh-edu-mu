@@ -1668,11 +1668,19 @@ select.uk-form-width-xsmall {
   padding-right: 15px;
   padding-top: 40px;
   padding-bottom: 40px; }
-
+@media (max-width: 640px) {
+  .lh-logo {
+    max-width: 250px;
+  }
+}
 @media (min-width: 640px) {
   .uk-tile {
     padding-left: 25px;
-    padding-right: 25px; } }
+    padding-right: 25px; }
+  .lh-logo {
+    max-width: 350px;
+  }  
+   }
 
 @media (min-width: 960px) {
   .uk-tile {
@@ -2157,7 +2165,10 @@ select.uk-form-width-xsmall {
 
 @media (min-width: 960px) {
   .uk-article-title {
-    font-size: 46px; } }
+    font-size: 46px; }
+  .lh-logo {
+    max-width: 350px;
+} }
 
 .uk-article-meta {
   font-size: 13px;
